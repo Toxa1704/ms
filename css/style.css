@@ -64,12 +64,77 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
-
+a{
+	color: #000000;
+}
 body{
 	font-family: 'CircularStd-Book';
 	font-size: 16px;
-	background: #e0bebe;
+	background: #ca9191;
 }
-.icon_lang, .lang, .menu, .discuss{
+/* .header{
+	background: url(../img/Hero-bg.png) 0 0/100% 100% no-repeat;
+} */
+.wrapper{
+	max-width: 1330px;
+	margin: 0 auto;
+}
+.menu{
 	display: flex;
+	justify-content: space-between;
+	margin: 45px 0;
+	align-self: center;
 }
+.logo {
+	font-size: 35px;
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+	line-height: 1.143;
+	text-align: center;
+}
+.nav a{
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	padding: 0 18px;
+}
+.nav{
+	align-self: center;
+	padding: 0 5% 0 0 ;
+}
+.icon_lang{
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+	margin-right: 90px;
+}
+.icon{
+	margin-right: 30px ;
+}
+.icon img{
+	padding: 0 11px 0 11px;
+}
+.lang{
+	display: flex;
+	align-self: center;	
+	text-transform: uppercase;
+}
+.lang a, p{
+	padding: 0 3px;
+}
+
+.discuss{
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+}
+#discuss_menu-bar{
+	padding: 0 0 0 24px;
+}
+.discuss img, p{
+	padding: 0 6px;
+
+}
+
+
+  
