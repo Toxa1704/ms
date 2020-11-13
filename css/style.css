@@ -72,13 +72,14 @@ body{
 	font-size: 16px;
 	background: #ca9191;
 }
-/* .header{
-	background: url(../img/Hero-bg.png) 0 0/100% 100% no-repeat;
-} */
 .wrapper{
+	background: url(../img/Hero-bg.png) 0 0 no-repeat;
+}
+.header{
 	max-width: 1330px;
 	margin: 0 auto;
 }
+
 .menu{
 	display: flex;
 	justify-content: space-between;
