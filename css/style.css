@@ -70,7 +70,7 @@ a{
 body{
 	font-family: 'CircularStd-Book';
 	font-size: 16px;
-	background: #ca9191;
+	/* background: #ca9191; */
 }
 .wrapper{
 	background: url(../img/Hero-bg.png) 0 0 no-repeat;
@@ -83,8 +83,7 @@ body{
 .menu{
 	display: flex;
 	justify-content: space-between;
-	margin: 45px 0;
-	align-self: center;
+	padding: 45px 0;
 }
 .logo {
 	font-size: 35px;
@@ -97,7 +96,11 @@ body{
 	font-size: 16px;
 	color: rgb(255, 255, 255);
 	line-height: 1.2;
-	padding: 0 18px;
+	padding: 0 18px;	
+}
+.nav a:focus{
+	padding-top: 55px;
+	border-top: rgb(255, 255, 255) 2px solid;
 }
 .nav{
 	align-self: center;
@@ -107,7 +110,6 @@ body{
 	display: flex;
 	justify-content: space-between;
 	align-self: center;
-	margin-right: 90px;
 }
 .icon{
 	margin-right: 30px ;
@@ -117,8 +119,10 @@ body{
 }
 .lang{
 	display: flex;
-	align-self: center;	
 	text-transform: uppercase;
+}
+.lang a:focus{
+	color: rgb(0, 99, 255);
 }
 .lang a, p{
 	padding: 0 3px;
