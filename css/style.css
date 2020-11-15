@@ -72,10 +72,10 @@ body{
 	font-size: 16px;
 	/* background: #ca9191; */
 }
-.wrapper{
+.header{
 	background: url(../img/Hero-bg.png) 0 0 no-repeat;
 }
-.header{
+.header_conteiner{
 	max-width: 1330px;
 	margin: 0 auto;
 }
