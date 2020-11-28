@@ -70,7 +70,7 @@ a{
 body{
 	font-family: 'CircularStd-Book';
 	font-size: 16px;
-	/* background: #ca9191; */
+	background: #ca9191;
 }
 .header{
 	background: url(../img/Hero-bg.png) 0 0 no-repeat;
