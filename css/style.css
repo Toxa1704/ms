@@ -156,6 +156,7 @@ body{
 /* Лента слайдов */
 .slick-track{
 	display: flex;
+	align-items: flex-start;
 }
 /* Слайд */
 .slick-slide{}
@@ -205,6 +206,30 @@ body{
 .slider .slick-next{
 	background: url('../img/slider-arrow_next.png') 0 0 / 100% no-repeat;
 	right: 0px;
+}
+
+.slider .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 10;
+}
+.slider .slick-dots li{
+	margin: 0px 20px;
+}
+/* Активная точка */
+.slider .slick-dots li.slick-active button{
+	background-color: #fff;
+	border-radius: 50%;
+}
+/* Элемент точки */
+.slider .slick-dots li button{
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	background-color:transparent;
+	border: 1px solid #fff;
+	border-radius: 50%;
 }
 .slider_item{
 
