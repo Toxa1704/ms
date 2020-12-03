@@ -5,19 +5,14 @@ $(document).ready(function(){
         adaptiveHeight:true,
         slidesToShow:1,
         slidesToScroll:1,
-        speed:1500,
+        speed:800,
         easing:'ease',
         infinite:true,
         initialSlide:4,
         autoplay:true,
-        autoplaySpeed:3000,
+        autoplaySpeed:1500,
         pauseOnFocus:true,
         pauseOnHovsr:true,
         pauseOnDotsHover:true,
-        draggable:false,
-        swipe:true,
-        touchThershold:10,
-        touchMove:true,
-        
     });
 });
