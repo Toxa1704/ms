@@ -240,3 +240,31 @@ body{
 	border-radius: 50%;
 }
 
+.header_section{
+	max-width: 1118px;
+	margin: 0 auto;
+}
+.weBuild .subtitle {
+	font-size: 40px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+  }
+  .weBuild .excerpt {
+	font-size: 21px;
+	color: rgb(255, 255, 255);
+  }
+  .weBuild_button{
+	background-color: rgb(255, 255, 255);
+	width: 200px;
+	height: 62px;
+	border-radius: 31px;
+  }
+  .weBuild{
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 50%;
+  }
+  .section_page{
+	  display: flex;
+  }
+  
