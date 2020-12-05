@@ -248,10 +248,12 @@ body{
 	font-size: 40px;
 	color: rgb(255, 255, 255);
 	font-weight: bold;
+	padding: 0 0 40px 0;
   }
   .weBuild .excerpt {
 	font-size: 21px;
 	color: rgb(255, 255, 255);
+	padding: 0 0 40px 0;
   }
   .weBuild_button{
 	background-color: rgb(255, 255, 255);
