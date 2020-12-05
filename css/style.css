@@ -156,7 +156,8 @@ body{
 /* Лента слайдов */
 .slick-track{
 	display: flex;
-	align-items: flex-start;
+	align-items:center;
+
 }
 /* Слайд */
 .slick-slide{}
@@ -184,11 +185,18 @@ body{
 /* Элемент точки */
 .slick-dots li button{}
 
-
+.slider .slick-slide{
+	width: 520px;
+	height: 560px;
+}
 
 .slider{
+	margin: 0 -100 0 100px; 
+	min-width: 0;
 	position: relative;
 	padding: 0 50px;
+
+
 }
 .slider .slick-arrow{
 	position: absolute;
@@ -231,6 +239,4 @@ body{
 	border: 1px solid #fff;
 	border-radius: 50%;
 }
-.slider_item{
 
-}
