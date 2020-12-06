@@ -279,37 +279,62 @@ body{
 
   .client_logo{
 	max-width: 1330px;
+	max-height: 170px;
 	margin: 0 auto;
   }
   .logo_content{
-	padding: 20px 0 20px 0;
+	padding: 45px 0 45px 0;
 	display: flex;
 	max-height: 100px;
 	justify-content: space-between;
   }
   .logo{
-	width: 110px;
+	width: 115px;
+	height: 40px;
 	transition-property: all;
-	transition-duration: 0.5s;
+	transition-duration: 0.2s;
 	transition-delay: 0s;
 	transition-timing-function: linear;
+}
+.logo:hover{
+	border-radius: 5px;
+	box-shadow: 2.63px 5.393px 19.44px 4.56px rgba(12, 12, 12, 0.5);
+	width: 140px;
+	height: 70px;
 }
 .Adidas{
 	background: url('../img/Logo/adidas_mono.png') 0 0 / 100% 100% no-repeat;
 }
 .Adidas:hover{
-
-	box-shadow: 2.63px 5.393px 19.44px 4.56px rgba(12, 12, 12, 0.5);
-	width: 200px;
-	height: 100px;
-	background: url(../img/Logo/Adidas_logo.png) 0 0 / 50% 50% no-repeat;
+	background: url(../img/Logo/Adidas_logo.png) 0 0 / 100% 100%  no-repeat;
+}
+.Acer{
+	background: url('../img/Logo/acer_mono.png') 0 0 / 100% 100% no-repeat;
 }
 .Acer:hover{
-	background-color: rgb(255, 255, 255);
-	box-shadow: 2.63px 5.393px 19.44px 4.56px rgba(12, 12, 12, 0.5);
-	width: 200px;
-	height: 100px;
-	background-image: url(/img/Logo/Acer_logo.png) 0 0 / 50% 50% no-repeat;
+	background: url(../img/Logo/Acer_logo.png) 0 0 / 100% 100% no-repeat;
 }
-
-  
+.Citi{
+	background: url('../img/Logo/citi_mono.png') 0 0 / 100% 100% no-repeat;
+}
+.Citi:hover{
+	background: url(../img/Logo/Citi_logo_Citibank.png) 0 0 / 100% 100% no-repeat;
+}
+.Canon{
+	background: url('../img/Logo/canon_mono.png') 0 0 / 100% 100% no-repeat;
+}
+.Canon:hover{
+	background: url(../img/Logo/Canon_logo.png) 0 0 / 100% 100% no-repeat;
+}
+.Alipay{
+	background: url('../img/Logo/alipay_mono.png') 0 0 / 100% 100% no-repeat;
+}
+.Alipay:hover{
+	background: url(../img/Logo/alipay-logo.png) 0 0 / 100% 100% no-repeat;
+}
+.Coca-cola{
+	background: url('../img/Logo/coca-cola_mono.png') 0 0 / 100% 100% no-repeat;
+}
+.Coca-cola:hover{
+	background: url(../img/Logo/coca-cola.png) 0 0 / 100% 100% no-repeat;
+}  
