@@ -73,7 +73,7 @@ body{
 	background: #ca9191;
 }
 .header{
-	background: url(../img/Hero-bg.png) 0 0 no-repeat;
+	background: url(../img/Hero-bg.png) 0 0 / 100% 110% no-repeat;
 }
 .header_conteiner{
 	max-width: 1330px;
@@ -186,22 +186,19 @@ body{
 .slick-dots li button{}
 
 .slider .slick-slide{
-	width: 520px;
-	height: 560px;
+
 }
 
 .slider{
-	margin: 0 -100 0 100px; 
 	min-width: 0;
 	position: relative;
-	padding: 0 50px;
-
+	width: 520px;
+	height: 560px;
 
 }
 .slider .slick-arrow{
 	position: absolute;
-	top: 50%;
-	margin: -22px 0 0 0 ;
+	top: 110%;
 	font-size: 0;
 	width: 44px;
 	height: 44px;
@@ -215,26 +212,30 @@ body{
 	background: url('../img/slider-arrow_next.png') 0 0 / 100% no-repeat;
 	right: 0px;
 }
-
-.slider .slick-dots{
-	display: flex;
+.weBuild_dots{
+	padding: 18% 2% 0 0;
 	align-items: center;
 	justify-content: center;
+}
+
+.weBuild_dots .slick-dots{
+	display: flex;
+	flex-direction: column;
 	z-index: 10;
 }
-.slider .slick-dots li{
-	margin: 0px 20px;
+.weBuild_dots .slick-dots li{
+	margin: 10px 30px 10px 0 ;
 }
 /* Активная точка */
-.slider .slick-dots li.slick-active button{
+.weBuild_dots .slick-dots li.slick-active button{
 	background-color: #fff;
 	border-radius: 50%;
 }
 /* Элемент точки */
-.slider .slick-dots li button{
+.weBuild_dots .slick-dots li button{
 	font-size: 0;
-	width: 10px;
-	height: 10px;
+	width: 15px;
+	height: 15px;
 	background-color:transparent;
 	border: 1px solid #fff;
 	border-radius: 50%;
@@ -272,7 +273,7 @@ body{
 	justify-content: center;
   }
   .section_page{
-	padding: 45px 0;
+	padding: 45px 0 140px 0;
 	display: flex;
   }
 

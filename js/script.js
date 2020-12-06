@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('.slider').slick({
         arrows:true,
         dots:true,
-        adaptiveHeight:true,
+        adaptiveHeight:false,
         slidesToShow:1,
         slidesToScroll:1,
         speed:800,
@@ -14,5 +14,6 @@ $(document).ready(function(){
         pauseOnFocus:true,
         pauseOnHovsr:true,
         pauseOnDotsHover:true,
+        appendDots:$('.weBuild_dots'),
     });
 });
