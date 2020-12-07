@@ -245,20 +245,21 @@ body{
 	max-width: 1118px;
 	margin: 0 auto;
 }
-.weBuild .subtitle {
+ .subtitle {
 	line-height: 1.375;
 	font-size: 40px;
 	color: rgb(255, 255, 255);
 	font-weight: bold;
 	padding: 0 0 40px 0;
   }
-  .weBuild .excerpt {
+   .excerpt {
 	line-height: 1.375;
 	font-size: 21px;
 	color: rgb(255, 255, 255);
 	padding: 0 0 40px 0;
   }
   .weBuild_button{
+	  color: #0063ff;
 	line-height: 1.375;
 	background-color: rgb(255, 255, 255);
 	width: 200px;
@@ -288,7 +289,7 @@ body{
 	max-height: 100px;
 	justify-content: space-between;
   }
-  .logo{
+  .logoCompany{
 	width: 115px;
 	height: 40px;
 	transition-property: all;
@@ -296,7 +297,7 @@ body{
 	transition-delay: 0s;
 	transition-timing-function: linear;
 }
-.logo:hover{
+.logoCompany:hover{
 	border-radius: 5px;
 	box-shadow: 2.63px 5.393px 19.44px 4.56px rgba(12, 12, 12, 0.5);
 	width: 140px;
@@ -337,4 +338,34 @@ body{
 }
 .Coca-cola:hover{
 	background: url(../img/Logo/coca-cola.png) 0 0 / 100% 100% no-repeat;
-}  
+} 
+.section_mobile{
+	max-width: 1118px;
+	margin: 0 auto;
+}
+.desk h2{
+	color: #000000;
+}
+.desk p{
+	color: #000000;
+}
+.desk button{
+	color: #fff;
+	background: #0063ff;
+}
+.desk{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex: 0 0 50%;
+}
+.section_mobile_content{
+	display: flex;
+}
+.section_img{
+	margin: 0 200px 0 0  ;
+}
+.MobileApp{
+	margin: 90px 0;
+	background: url('../img/mobilebag.png') 0 0  no-repeat;
+}
