@@ -259,7 +259,7 @@ body{
 	padding: 0 0 40px 0;
   }
   .weBuild_button{
-	  color: #0063ff;
+	color: #0063ff;
 	line-height: 1.375;
 	background-color: rgb(255, 255, 255);
 	width: 200px;
@@ -286,58 +286,61 @@ body{
   .logo_content{
 	padding: 45px 0 45px 0;
 	display: flex;
-	max-height: 100px;
 	justify-content: space-between;
   }
   .logoCompany{
-	width: 115px;
-	height: 40px;
+	width: 10%;
+	height: 60px;
 	transition-property: all;
-	transition-duration: 0.2s;
+	transition-duration: 0.25s;
 	transition-delay: 0s;
 	transition-timing-function: linear;
 }
 .logoCompany:hover{
 	border-radius: 5px;
 	box-shadow: 2.63px 5.393px 19.44px 4.56px rgba(12, 12, 12, 0.5);
-	width: 140px;
-	height: 70px;
 }
 .Adidas{
 	background: url('../img/Logo/adidas_mono.png') 0 0 / 100% 100% no-repeat;
 }
 .Adidas:hover{
-	background: url(../img/Logo/Adidas_logo.png) 0 0 / 100% 100%  no-repeat;
+	background: url(../img/Logo/Adidas_logo.png) 0 0 / 90% 90%  no-repeat;
+	background-position: 50% 50%;
 }
 .Acer{
 	background: url('../img/Logo/acer_mono.png') 0 0 / 100% 100% no-repeat;
 }
 .Acer:hover{
-	background: url(../img/Logo/Acer_logo.png) 0 0 / 100% 100% no-repeat;
+	background: url(../img/Logo/Acer_logo.png) 0 0 / 90% 90% no-repeat;
+	background-position: 50% 50%;
 }
 .Citi{
 	background: url('../img/Logo/citi_mono.png') 0 0 / 100% 100% no-repeat;
 }
 .Citi:hover{
-	background: url(../img/Logo/Citi_logo_Citibank.png) 0 0 / 100% 100% no-repeat;
+	background: url(../img/Logo/Citi_logo_Citibank.png) 0 0 / 90% 90% no-repeat;
+	background-position: 50% 50%;
 }
 .Canon{
 	background: url('../img/Logo/canon_mono.png') 0 0 / 100% 100% no-repeat;
 }
 .Canon:hover{
-	background: url(../img/Logo/Canon_logo.png) 0 0 / 100% 100% no-repeat;
+	background: url(../img/Logo/Canon_logo.png) 0 0 / 90% 90% no-repeat;
+	background-position: 50% 50%;
 }
 .Alipay{
 	background: url('../img/Logo/alipay_mono.png') 0 0 / 100% 100% no-repeat;
 }
 .Alipay:hover{
-	background: url(../img/Logo/alipay-logo.png) 0 0 / 100% 100% no-repeat;
+	background: url(../img/Logo/alipay-logo.png) 0 0 / 90% 90% no-repeat;
+	background-position: 50% 50%;
 }
 .Coca-cola{
 	background: url('../img/Logo/coca-cola_mono.png') 0 0 / 100% 100% no-repeat;
 }
 .Coca-cola:hover{
-	background: url(../img/Logo/coca-cola.png) 0 0 / 100% 100% no-repeat;
+	background: url(../img/Logo/coca-cola.png) 0 0 / 90% 90% no-repeat;
+	background-position: 50% 50%;
 } 
 .section_mobile{
 	max-width: 1118px;
@@ -349,7 +352,10 @@ body{
 .desk p{
 	color: #000000;
 }
-.desk button{
+.button{
+	width: 200px;
+	height: 62px;
+	border-radius: 31px;
 	color: #fff;
 	background: #0063ff;
 }
